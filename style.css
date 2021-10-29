@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-weight: bold;
+}
+
+    h1{
+        position: absolute;
+        left: 50px;
+        top: 20px;
+    }
+
+#txt{
+    font-size: 150px;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+    footer{
+        text-align: center;
+        margin-top: 85vh;
+        font-size: 20px;
+    }
+
+#relo{
+    position: absolute;
+    top: 5px;
+    left: 25px;
+    border: 0;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+    
+input[type="button"]{
+    position: absolute;
+    top: 5px;
+    left: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: black;
+    color: white;
+    width: 90px;
+    border-radius: 20px;
+}
